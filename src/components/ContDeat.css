@@ -1,0 +1,47 @@
+#cont-deat{
+    position: absolute;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    background: rgba(15, 15, 15, 0.371);
+    top:0;
+    bottom:0;
+    z-index: 1;
+}
+.cont-det{
+    width: 100%;
+    background-color:aliceblue;
+    padding: 2%;
+    border-radius: 5px;
+    
+}
+.cont-det-inn{
+    margin-top: 2px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid lightgray ;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    
+}
+.cont-det-inn span {
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start; 
+  
+  }
+  .label {
+    width: 120px; 
+    margin-right: 10px; 
+  }
+  .cont-det-inn span  span{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .spa{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
