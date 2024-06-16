@@ -33,7 +33,6 @@ const AddCont = ({ onCrossPress, onUpdateData, selectedData }) => {
     const handleSubmit = (e) => {
         e.preventDefault()
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
-        // console.log(formData)
         if (!formData.name) {
             setFormDataErr((prevFormData) => ({ ...prevFormData, nameErr: 'Enter your name' }));
         } else if (!formData.email) {
